@@ -4,13 +4,12 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-
+var BubbleSize = 35
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
  
-  background(255,255,255,0);
-  
+background(255,255,255,200)
 
 
 
