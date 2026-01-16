@@ -69,9 +69,28 @@ background(255,255,255,0);
 
   //mouth
   fill(255, 222, 33)
+  strokeWeight(1)
+  ellipse(279,180,10,5)
+
+  //upperpant
+  fill(255,255,255)
+  stroke(255,255,255)
+  rect(251,192,38,4)
+
+  //bubbleblower
+  stroke(128,0,128)
+  line(304,178,300,173)
+  ellipse(298,172,3,4)
+
+  //bubble
+  stroke(137, 207, 240)
+  fill(137, 207, 240, 100)
+  ellipse(289,172,BubbleSize, BubbleSize)
 
 
 
+
+BubbleSize += 1
 
 
 
